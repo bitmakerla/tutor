@@ -171,6 +171,11 @@ SMTP
 
 Note that the SMTP server shipped with Tutor by default does not implement TLS. With external servers, only one of SSL or TLS should be enabled, at most.
 
+Forum
+*****
+
+- ``FORUM_MONGODB_DATABASE`` (default: ``cs_comments_service``)
+
 SSL/TLS certificates for HTTPS access
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
